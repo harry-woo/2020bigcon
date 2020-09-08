@@ -21,3 +21,5 @@ skt_age_feb %>%
 
 str(skt_age_feb$STD_YM)
 table(skt_age_feb$STD_YM)
+
+read.csv(file = "01_SKT/FLOW_AGE_201902.csv", header = TRUE, sep = "|", fileEncoding="UTF-8-BOM")
